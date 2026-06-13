@@ -18,12 +18,12 @@ export default function Sidebar() {
   return (
     <div className="flex h-full w-64 flex-col bg-slate-900 border-r border-slate-800">
       <div className="flex h-16 shrink-0 items-center px-6">
-        <div className="flex items-center gap-2">
+        <Link href="/" className="flex items-center gap-2">
           <div className="bg-indigo-500 rounded-lg p-1.5">
             <Building2 className="w-5 h-5 text-white" />
           </div>
           <span className="text-xl font-bold text-white tracking-tight">PrepSync AI</span>
-        </div>
+        </Link>
       </div>
       <div className="flex flex-1 flex-col overflow-y-auto px-4 py-4">
         <nav className="flex-1 space-y-1">
