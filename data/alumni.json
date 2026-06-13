@@ -1,0 +1,50 @@
+[
+  {
+    "initials": "RS",
+    "company": "Deloitte",
+    "role": "Business Analyst",
+    "ctc": "7.5 LPA",
+    "year": 2024,
+    "rounds": 3,
+    "topics": ["Aptitude", "Case Study", "HR"],
+    "resources": "IndiaBix, Deloitte prep guide, Mock GDs",
+    "tip": "They reuse case formats — practice the Deloitte case library.",
+    "verified": true
+  },
+  {
+    "initials": "AM",
+    "company": "Amazon",
+    "role": "SDE-1",
+    "ctc": "32 LPA",
+    "year": 2024,
+    "rounds": 5,
+    "topics": ["DSA", "System Design", "HR"],
+    "resources": "LeetCode, Striver's SDE Sheet, STAR method prep",
+    "tip": "Every round has a leadership principle angle — prepare STAR stories for all 16 LPs.",
+    "verified": true
+  },
+  {
+    "initials": "PK",
+    "company": "TCS",
+    "role": "Systems Engineer",
+    "ctc": "3.6 LPA",
+    "year": 2023,
+    "rounds": 2,
+    "topics": ["Aptitude", "Technical", "HR"],
+    "resources": "PrepInsta, GFG TCS NQT guide",
+    "tip": "NQT score matters a lot — practice coding sections under time.",
+    "verified": true
+  },
+  {
+    "initials": "NK",
+    "company": "Flipkart",
+    "role": "Product Analyst",
+    "ctc": "18 LPA",
+    "year": 2024,
+    "rounds": 4,
+    "topics": ["Case Study", "Guesstimates", "DSA", "HR"],
+    "resources": "Decode PM, LeetCode Medium, YouTube PM channels",
+    "tip": "Flipkart loves metric-driven answers — frame everything with numbers.",
+    "verified": true
+  }
+]

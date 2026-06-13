@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# PrepSync AI
 
-## Getting Started
+PrepSync AI is a frontend-only showcase application built as a product management portfolio demo. It serves as a visual prototype to demonstrate product thinking, focusing on a clean, modern SaaS dashboard experience. The platform is designed to look like a "Placement Intelligence" tool that helps students prepare for job interviews.
 
-First, run the development server:
+## Features Built
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. **CV-JD Matching Engine (Simulated AI)**
+   - A split-pane layout to paste a resume and job description.
+   - An animated AI analysis process that simulates NLP matching.
+   - Outputs a simulated match score (using an animated circular dial), identifies matched/gap skills, and provides a concise AI summary.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Mock Interview Console (Simulated AI)**
+   - Generates 5 tailored mock interview questions based on identified skill gaps.
+   - Each question card features an expandable textarea for practicing answers.
+   - Simulated AI feedback provides encouraging, structured critiques for each submitted answer.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. **Alumni Placement Log**
+   - A clean 3-step wizard form for alumni to log their placement journey (company, rounds, topics, resources, tips).
+   - Real-time simulated feed updates: Submitting the form triggers a celebration animation (confetti) and prepends the new log to a dynamic "Recent Contributions" feed.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. **Company Intel Dashboard**
+   - A searchable grid of target companies displaying high-level stats (Avg CTC, Top Topics).
+   - Clicking a company opens a slide-out "Blueprint" drawer.
+   - The drawer features interactive charts (Recharts) for Topic Weightage (Donut Chart) and Hiring Trends (Bar Chart), alongside real quotes from alumni.
 
-## Learn More
+## Tech Stack
+- **Framework:** Next.js (App Router) + TypeScript
+- **Styling:** Tailwind CSS
+- **Icons:** Lucide React
+- **Animations:** Framer Motion, Canvas Confetti
+- **Charts:** Recharts
 
-To learn more about Next.js, take a look at the following resources:
+## How to Run Locally
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Clone or download this repository.
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+*Note: This is a frontend-only prototype. All data is mock/hardcoded (found in `/data`), and there are no actual backend or API calls.*

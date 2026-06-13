@@ -1,0 +1,186 @@
+[
+  {
+    "id": "tcs",
+    "name": "TCS",
+    "avgCtc": "3.5 - 7.5 LPA",
+    "topTopics": ["Aptitude", "Technical", "HR"],
+    "chartData": {
+      "topics": [
+        { "name": "Aptitude", "value": 40 },
+        { "name": "Technical", "value": 40 },
+        { "name": "HR", "value": 20 }
+      ],
+      "hiring": [
+        { "year": "2021", "hires": 120 },
+        { "year": "2022", "hires": 150 },
+        { "year": "2023", "hires": 110 },
+        { "year": "2024", "hires": 90 }
+      ]
+    },
+    "quotes": [
+      { "text": "Focus heavily on the NQT, it decides your interview chances.", "author": "Systems Engineer, '23" },
+      { "text": "Basic CS fundamentals are enough for the technical round.", "author": "Digital Candidate, '22" }
+    ]
+  },
+  {
+    "id": "infosys",
+    "name": "Infosys",
+    "avgCtc": "3.6 - 8 LPA",
+    "topTopics": ["Aptitude", "DBMS", "HR"],
+    "chartData": {
+      "topics": [
+        { "name": "Aptitude", "value": 45 },
+        { "name": "DBMS/SQL", "value": 35 },
+        { "name": "HR", "value": 20 }
+      ],
+      "hiring": [
+        { "year": "2021", "hires": 95 },
+        { "year": "2022", "hires": 110 },
+        { "year": "2023", "hires": 85 },
+        { "year": "2024", "hires": 70 }
+      ]
+    },
+    "quotes": [
+      { "text": "Aptitude section is lengthier than you expect.", "author": "Systems Engineer, '24" },
+      { "text": "Be ready to write basic SQL queries on paper.", "author": "Specialist Programmer, '23" }
+    ]
+  },
+  {
+    "id": "google",
+    "name": "Google",
+    "avgCtc": "35+ LPA",
+    "topTopics": ["DSA", "System Design", "Googlyness"],
+    "chartData": {
+      "topics": [
+        { "name": "DSA", "value": 60 },
+        { "name": "System Design", "value": 25 },
+        { "name": "Behavioral", "value": 15 }
+      ],
+      "hiring": [
+        { "year": "2021", "hires": 15 },
+        { "year": "2022", "hires": 25 },
+        { "year": "2023", "hires": 12 },
+        { "year": "2024", "hires": 18 }
+      ]
+    },
+    "quotes": [
+      { "text": "Think out loud. The interviewer wants to see your thought process, not just the code.", "author": "SWE II, '23" },
+      { "text": "Practice medium/hard DP and Graph problems extensively.", "author": "SWE, '24" }
+    ]
+  },
+  {
+    "id": "amazon",
+    "name": "Amazon",
+    "avgCtc": "25 - 45 LPA",
+    "topTopics": ["DSA", "System Design", "LPs"],
+    "chartData": {
+      "topics": [
+        { "name": "DSA", "value": 50 },
+        { "name": "LPs (Behavioral)", "value": 30 },
+        { "name": "System Design", "value": 20 }
+      ],
+      "hiring": [
+        { "year": "2021", "hires": 40 },
+        { "year": "2022", "hires": 60 },
+        { "year": "2023", "hires": 25 },
+        { "year": "2024", "hires": 35 }
+      ]
+    },
+    "quotes": [
+      { "text": "Every round has a leadership principle angle — prepare STAR stories for all 16 LPs.", "author": "SDE-1, '24" },
+      { "text": "The online assessment is tough, don't underestimate it.", "author": "SDE-2, '22" }
+    ]
+  },
+  {
+    "id": "flipkart",
+    "name": "Flipkart",
+    "avgCtc": "18 - 30 LPA",
+    "topTopics": ["Case Study", "DSA", "Machine Coding"],
+    "chartData": {
+      "topics": [
+        { "name": "Machine Coding", "value": 40 },
+        { "name": "DSA", "value": 35 },
+        { "name": "Case Study/Design", "value": 25 }
+      ],
+      "hiring": [
+        { "year": "2021", "hires": 20 },
+        { "year": "2022", "hires": 30 },
+        { "year": "2023", "hires": 15 },
+        { "year": "2024", "hires": 25 }
+      ]
+    },
+    "quotes": [
+      { "text": "Flipkart loves metric-driven answers — frame everything with numbers.", "author": "Product Analyst, '24" },
+      { "text": "Machine coding round needs you to write clean, extensible code in 90 mins.", "author": "SDE-1, '23" }
+    ]
+  },
+  {
+    "id": "deloitte",
+    "name": "Deloitte",
+    "avgCtc": "6 - 10 LPA",
+    "topTopics": ["Aptitude", "Case Study", "HR"],
+    "chartData": {
+      "topics": [
+        { "name": "Case Study", "value": 45 },
+        { "name": "Aptitude", "value": 30 },
+        { "name": "Communication", "value": 25 }
+      ],
+      "hiring": [
+        { "year": "2021", "hires": 60 },
+        { "year": "2022", "hires": 80 },
+        { "year": "2023", "hires": 70 },
+        { "year": "2024", "hires": 65 }
+      ]
+    },
+    "quotes": [
+      { "text": "They reuse case formats — practice the Deloitte case library.", "author": "Business Analyst, '24" },
+      { "text": "Communication skills and confidence matter more than the exact answer.", "author": "Analyst, '23" }
+    ]
+  },
+  {
+    "id": "wipro",
+    "name": "Wipro",
+    "avgCtc": "3.5 - 6.5 LPA",
+    "topTopics": ["Aptitude", "Coding", "English"],
+    "chartData": {
+      "topics": [
+        { "name": "Aptitude", "value": 40 },
+        { "name": "English/Verbal", "value": 30 },
+        { "name": "Basic Coding", "value": 30 }
+      ],
+      "hiring": [
+        { "year": "2021", "hires": 100 },
+        { "year": "2022", "hires": 120 },
+        { "year": "2023", "hires": 90 },
+        { "year": "2024", "hires": 80 }
+      ]
+    },
+    "quotes": [
+      { "text": "The essay writing section has automated evaluation, use simple and correct grammar.", "author": "Project Engineer, '22" },
+      { "text": "Coding questions are standard, strings and arrays mostly.", "author": "Turbo Engineer, '23" }
+    ]
+  },
+  {
+    "id": "microsoft",
+    "name": "Microsoft",
+    "avgCtc": "30 - 45 LPA",
+    "topTopics": ["DSA", "System Design", "CS Fundamentals"],
+    "chartData": {
+      "topics": [
+        { "name": "DSA", "value": 50 },
+        { "name": "System Design", "value": 30 },
+        { "name": "OS/Networks", "value": 20 }
+      ],
+      "hiring": [
+        { "year": "2021", "hires": 30 },
+        { "year": "2022", "hires": 45 },
+        { "year": "2023", "hires": 25 },
+        { "year": "2024", "hires": 30 }
+      ]
+    },
+    "quotes": [
+      { "text": "Strong grasp on OS concepts like threading and deadlocks is often tested.", "author": "SWE, '23" },
+      { "text": "Focus heavily on trees and graphs, they are a favorite.", "author": "SDE, '24" }
+    ]
+  }
+]
