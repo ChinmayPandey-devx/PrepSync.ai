@@ -92,7 +92,7 @@ export default function InterviewPage() {
           <div>
             <h3 className="text-lg font-semibold text-slate-800">Ready to practice?</h3>
             <p className="text-slate-500 mt-1 max-w-md mx-auto">
-              We'll generate 5 personalized interview questions targeting the gap skills (Machine Learning, Tableau, AWS) identified in your resume analysis.
+              We&apos;ll generate 5 personalized interview questions targeting the gap skills (Machine Learning, Tableau, AWS) identified in your resume analysis.
             </p>
           </div>
         </div>

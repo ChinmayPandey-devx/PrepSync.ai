@@ -331,7 +331,7 @@ export default function AlumniPage() {
                     </p>
 
                     <div className="bg-slate-50 p-3 rounded-lg border border-slate-100 text-sm italic text-slate-600">
-                      "{item.tip}"
+                      &quot;{item.tip}&quot;
                     </div>
                   </div>
                 </motion.div>

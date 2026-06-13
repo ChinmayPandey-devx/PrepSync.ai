@@ -2,8 +2,8 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Building2, Search, X, Quote, BarChart3, PieChart as PieChartIcon } from "lucide-react";
-import { PieChart, Pie, Cell, BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer } from "recharts";
+import { Search, X, Quote, BarChart3, PieChart as PieChartIcon } from "lucide-react";
+import { PieChart, Pie, Cell, BarChart, Bar, XAxis, Tooltip, ResponsiveContainer } from "recharts";
 import companiesData from "@/data/companies.json";
 
 const COLORS = ['#4f46e5', '#8b5cf6', '#10b981', '#f59e0b'];
@@ -74,7 +74,7 @@ export default function IntelPage() {
 
       {filteredCompanies.length === 0 && (
         <div className="text-center py-12 text-slate-500">
-          No companies found matching "{searchTerm}".
+          No companies found matching &quot;{searchTerm}&quot;.
         </div>
       )}
 
@@ -181,7 +181,7 @@ export default function IntelPage() {
                       <div key={idx} className="bg-indigo-50/50 border border-indigo-100 rounded-xl p-5 flex gap-4">
                         <Quote className="w-8 h-8 text-indigo-200 shrink-0 rotate-180" />
                         <div>
-                          <p className="text-slate-700 leading-relaxed italic">"{quote.text}"</p>
+                          <p className="text-slate-700 leading-relaxed italic">&quot;{quote.text}&quot;</p>
                           <p className="text-xs font-bold text-indigo-600 mt-2">— {quote.author}</p>
                         </div>
                       </div>
