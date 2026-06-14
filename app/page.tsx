@@ -9,7 +9,7 @@ export default function HomePage() {
   }
 
   return (
-    <div className="font-sans text-[#111827]" style={{ backgroundColor: "#F7F8FA", minHeight: "100%", margin: "-24px", padding: "24px" }}>
+    <div className="font-sans text-[#111827] bg-[#F7F8FA] min-h-full">
       <div className="max-w-5xl mx-auto space-y-16 pb-12">
         {/* 1. Hero Section */}
         <section className="text-center pt-20">

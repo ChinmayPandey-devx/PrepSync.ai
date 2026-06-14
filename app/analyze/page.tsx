@@ -36,7 +36,7 @@ export default function AnalyzePage() {
   };
 
   return (
-    <div className="max-w-[1200px] mx-auto space-y-8 pb-12 font-sans" style={{ backgroundColor: "#F7F8FA", minHeight: "100%", margin: "-24px", padding: "24px" }}>
+    <div className="max-w-[1200px] mx-auto space-y-8 pb-12 font-sans bg-[#F7F8FA] min-h-full">
       
       {/* Top Section */}
       <div className="flex items-start justify-between">

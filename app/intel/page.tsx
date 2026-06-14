@@ -19,12 +19,12 @@ export default function IntelPage() {
 
   return (
     <div className="max-w-6xl mx-auto space-y-8 pb-12 relative">
-      <div className="flex items-center justify-between">
+      <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
         <div>
           <h1 className="text-2xl font-bold text-slate-900">Company Intel Dashboard</h1>
           <p className="text-slate-500 mt-1">Data-driven insights to ace your target companies.</p>
         </div>
-        <div className="relative w-72">
+        <div className="relative w-full md:w-72">
           <input
             type="text"
             placeholder="Search companies or topics..."
@@ -115,7 +115,7 @@ export default function IntelPage() {
 
               <div className="flex-1 overflow-y-auto p-6 space-y-8">
                 {/* Charts Grid */}
-                <div className="grid grid-cols-2 gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   {/* Topics Donut Chart */}
                   <div className="bg-white border border-slate-200 rounded-xl p-5 shadow-sm">
                     <h3 className="text-sm font-bold text-slate-800 flex items-center gap-2 mb-4">

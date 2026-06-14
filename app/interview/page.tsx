@@ -65,7 +65,7 @@ export default function InterviewPage() {
 
   return (
     <div className="max-w-4xl mx-auto space-y-8 pb-12">
-      <div className="flex items-center justify-between">
+      <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
         <div>
           <h1 className="text-2xl font-bold text-slate-900">Mock Interview Console</h1>
           <p className="text-slate-500 mt-1">Practice answering questions tailored to your resume gaps.</p>
@@ -73,7 +73,7 @@ export default function InterviewPage() {
         <button
           onClick={handleGenerate}
           disabled={isGenerating || showQuestions}
-          className="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-2.5 rounded-lg font-medium flex items-center gap-2 transition-all disabled:opacity-50 disabled:cursor-not-allowed"
+          className="w-full sm:w-auto bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-2.5 rounded-lg font-medium flex items-center justify-center gap-2 transition-all disabled:opacity-50 disabled:cursor-not-allowed"
         >
           {isGenerating ? (
             <Loader2 className="w-5 h-5 animate-spin" />
